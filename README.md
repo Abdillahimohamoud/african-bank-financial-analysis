@@ -67,4 +67,4 @@ This analysis is limited to top-level financial statement figures and does not h
 
 ## Tools Used
 
-Python (PDF text extraction), SQL (ratio calculations), Power BI (dashboard — in progress).
+Python (PDF text extraction), SQL (ratio calculations), Power BI (dashboard — in progres).
