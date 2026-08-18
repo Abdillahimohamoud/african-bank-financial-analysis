@@ -82,19 +82,22 @@ High-level FY2025 performance: revenue, assets, equity, profit, and the year-ove
 
 Cost-to-Income and Net Interest Margin trends across FY2023–FY2025, isolating rising costs and margin compression as the profit driver.
 
-![Efficiency and Margin](images/efficiency_margin.png)
+<img width="1366" height="788" alt="image" src="https://github.com/user-attachments/assets/82bc6295-e9fe-4540-9b41-4e5fedd36207" />
+
 
 ### Page 3 — Asset Quality
 
 Credit Loss Ratio trend, ruling out deteriorating loan quality as a cause of the profit decline.
 
-![Asset Quality](images/asset_quality.png)
+<img width="1412" height="803" alt="image" src="https://github.com/user-attachments/assets/e5cc4a2f-0cf4-411e-80ea-0e2c86fcf222" />
+
 
 ### Page 4 — Recommendation & Capital Position
 
 Equity-to-Assets and short-term funding trends, plus the final recommendation and stated limitations.
 
-![Recommendation and Capital Position](images/recommendation.png)
+<img width="1344" height="778" alt="image" src="https://github.com/user-attachments/assets/c71ec310-ceba-442d-8d07-76cba0cc8620" />
+
 
 ## Tools Used
 
