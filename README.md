@@ -2,7 +2,7 @@
 
 ## Business Problem
 
-A growing balance sheet is often read as a sign of a healthy business — more assets, more lending, more customers. But growth alone doesn't guarantee profitability. This project asks a more specific question: **is African Bank Holdings' balance sheet growth actually translating into stronger profits, or is it masking a cost problem underneath?**
+A growing balance sheet is often read as a sign of a healthy business — more assets, more lending, more customers. But growth alone doesn't guarantee profitability. This project asks a more specific question: is African Bank Holdings' balance sheet growth actually translating into stronger profits, or is it masking a cost problem underneath?
 
 ## Dataset
 
@@ -26,19 +26,19 @@ Two limitations are worth stating plainly:
 
 Seven ratios were calculated in SQL across all three years to examine growth, efficiency, asset quality, profitability, funding structure, and capital strength:
 
-1. Revenue and profit growth (YoY %)
-2. Net Interest Margin proxy (Net Interest Income ÷ Net Advances)
-3. Cost-to-Income Ratio (Operating Costs ÷ Total Income from Operations)
-4. Credit Loss Ratio (Credit Impairment Charge ÷ Net Advances)
-5. Return on Equity (Profit for the Period ÷ Total Equity)
-6. Funding Mix (Short-term Funding ÷ Total Funding)
-7. Equity-to-Assets Ratio (Total Equity ÷ Total Assets)
+- Revenue and profit growth (YoY %)
+- Net Interest Margin proxy (Net Interest Income ÷ Net Advances)
+- Cost-to-Income Ratio (Operating Costs ÷ Total Income from Operations)
+- Credit Loss Ratio (Credit Impairment Charge ÷ Net Advances)
+- Return on Equity (Profit for the Period ÷ Total Equity)
+- Funding Mix (Short-term Funding ÷ Total Funding)
+- Equity-to-Assets Ratio (Total Equity ÷ Total Assets)
 
 ## Findings
 
-**The balance sheet grew steadily. Profit did not.** Total assets rose from R48.3bn (FY2023) to R57.6bn (FY2025), and net advances grew from R31.8bn to R40.3bn over the same period — genuine, consistent growth. Revenue followed a similar pattern, dipping slightly in FY2024 before recovering in FY2025 (+4.89%).
+The balance sheet grew steadily. Profit did not. Total assets rose from R48.3bn (FY2023) to R57.6bn (FY2025), and net advances grew from R31.8bn to R40.3bn over the same period — genuine, consistent growth. Revenue followed a similar pattern, dipping slightly in FY2024 before recovering in FY2025 (+4.89%).
 
-Profit tells a very different story: it fell from R521m (FY2023) to R517m (FY2024) to just R274m (FY2025) — a **47% collapse in the final year**, even as revenue grew. Return on Equity fell in step, from 4.21% to 2.11% over the same period.
+Profit tells a very different story: it fell from R521m (FY2023) to R517m (FY2024) to just R274m (FY2025) — a 47% collapse in the final year, even as revenue grew. Return on Equity fell in step, from 4.21% to 2.11% over the same period. That's well below what shareholders typically require — bank cost-of-equity benchmarks commonly sit in the 12–18% range — so this isn't a marginal dip; it points to a profitability problem material enough to concern shareholders, not a rounding-level fluctuation.
 
 | Metric | FY2023 | FY2024 | FY2025 |
 |---|---|---|---|
@@ -51,20 +51,30 @@ Profit tells a very different story: it fell from R521m (FY2023) to R517m (FY202
 | Short-term Funding Mix | 75.15% | 74.58% | 69.16% |
 | Equity-to-Assets | 25.65% | 25.95% | 22.50% |
 
-**Credit quality is not the problem — it's actually improving.** The Credit Loss Ratio fell steadily from 10.26% to 6.06%, meaning a shrinking share of the loan book is being written off or provisioned for. Whatever is driving the profit decline, it isn't rising loan defaults.
+Credit quality is not the problem — it's actually improving. The Credit Loss Ratio fell steadily from 10.26% to 6.06%, meaning a shrinking share of the loan book is being written off or provisioned for. Whatever is driving the profit decline, it isn't rising loan defaults.
 
-**Cost-to-Income Ratio is the clearest explanation.** It climbed from 62.97% to 69.45% over three years — operating costs are consuming a steadily larger share of income each year. This closely matches the bank's own most recent interim results, which reported a cost-to-income ratio of 70% (up from 62% the prior year), independently corroborating this finding.
+Cost-to-Income Ratio is the clearest explanation. It climbed from 62.97% to 69.45% over three years — operating costs are consuming a steadily larger share of income each year. This closely matches the bank's own most recent interim results, which reported a cost-to-income ratio of 70% (up from 62% the prior year), independently corroborating this finding.
 
-**Net Interest Margin is also compressing** (17.99% → 12.16%), meaning the loan book is generating proportionally less income per rand lent even as it grows in size — a second pressure point alongside rising costs.
+Net Interest Margin is also compressing (17.99% → 12.16%), meaning the loan book is generating proportionally less income per rand lent even as it grows in size — a second pressure point alongside rising costs.
 
-**The bank is also more leveraged than three years ago.** Equity-to-Assets fell from 25.65% to 22.50%, meaning the balance sheet has grown faster than the equity base supporting it.
+The bank is also more leveraged than three years ago. Equity-to-Assets fell from 25.65% to 22.50%, meaning the balance sheet has grown faster than the equity base supporting it. This could reflect deliberate deleveraging or weaker capital growth — the available data can't fully distinguish between the two.
 
 ## Recommendation
 
-The data points clearly toward a **cost discipline and margin problem, not a credit risk problem**. Management attention should focus on the operating cost base and margin compression rather than loan book quality, which has actually strengthened over the same period.
+The data points toward cost discipline and margin compression, not deteriorating credit risk — the Credit Loss Ratio has strengthened, not worsened, over the same period, so asset quality is an unlikely driver of the profit decline.
 
-This analysis is limited to top-level financial statement figures and does not have visibility into the underlying cost breakdown (staff costs, technology spend, marketing, etc.). A next step for internal analysis would be decomposing operating costs by category to identify which specific cost lines are driving the increase — that level of detail isn't available in the published summary statements used here.
+However, the improvement in credit metrics alongside compressing margins may also reflect a deliberate shift toward a lower-risk, lower-yield loan book, rather than a pure operating-efficiency problem. The published financial statements don't provide loan-book composition detail to fully separate these two explanations, so this should be treated as a plausible alternative rather than ruled out.
+
+Either way, management attention should focus on the operating cost base and margin trajectory. This analysis is limited to top-level financial statement figures and does not have visibility into the underlying cost breakdown (staff costs, technology spend, marketing, etc.). A next step for internal analysis would be decomposing operating costs by category to identify which specific cost lines are driving the increase — that level of detail isn't available in the published summary statements used here.
+
+## Dashboard
+
+Four-page Power BI dashboard covering Overview, Efficiency & Margin, Asset Quality, and Recommendation & Capital Position. Screenshots below; full interactive file available on request.
+
+*(Insert 2–3 screenshots here: Overview page, Recommendation & Capital Position page)*
 
 ## Tools Used
 
-Python (PDF text extraction), SQL (ratio calculations), Power BI (dashboard — in progress).
+- **Python** — PDF text extraction from audited financial statements
+- **SQL** — ratio calculations across all three fiscal years
+- **Power BI** — four-page interactive dashboard (DAX measures, trend visuals)
