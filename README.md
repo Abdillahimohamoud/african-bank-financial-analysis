@@ -69,9 +69,32 @@ Either way, management attention should focus on the operating cost base and mar
 
 ## Dashboard
 
-Four-page Power BI dashboard covering Overview, Efficiency & Margin, Asset Quality, and Recommendation & Capital Position. Screenshots below; full interactive file available on request.
+Four-page Power BI dashboard. Full interactive `.pbix` file is in [`/dashboard`](./dashboard).
 
-*(Insert 2–3 screenshots here: Overview page, Recommendation & Capital Position page)*
+### Page 1 — Overview
+
+High-level FY2025 performance: revenue, assets, equity, profit, and the year-over-year profit decline.
+
+<img width="1435" height="810" alt="image" src="https://github.com/user-attachments/assets/a701e41c-d2a0-4b5a-8661-f3a4a78ab27e" />
+
+
+### Page 2 — Efficiency & Margin
+
+Cost-to-Income and Net Interest Margin trends across FY2023–FY2025, isolating rising costs and margin compression as the profit driver.
+
+![Efficiency and Margin](images/efficiency_margin.png)
+
+### Page 3 — Asset Quality
+
+Credit Loss Ratio trend, ruling out deteriorating loan quality as a cause of the profit decline.
+
+![Asset Quality](images/asset_quality.png)
+
+### Page 4 — Recommendation & Capital Position
+
+Equity-to-Assets and short-term funding trends, plus the final recommendation and stated limitations.
+
+![Recommendation and Capital Position](images/recommendation.png)
 
 ## Tools Used
 
