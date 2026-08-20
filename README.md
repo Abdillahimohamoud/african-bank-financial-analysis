@@ -69,8 +69,6 @@ Either way, management attention should focus on the operating cost base and mar
 
 ## Dashboard
 
-Four-page Power BI dashboard. Full interactive `.pbix` file is in [`/dashboard`](./dashboard).
-
 ### Page 1 — Overview
 
 High-level FY2025 performance: revenue, assets, equity, profit, and the year-over-year profit decline.
