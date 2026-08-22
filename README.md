@@ -1,4 +1,4 @@
-# African Bank Holdings — Three-Year Financial Trend Analysis
+# African Bank Holdings: Three-Year Financial Trend Analysis
 
 ## Business Problem
 
